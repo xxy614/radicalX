@@ -53,7 +53,7 @@ if "initialized" not in st.session_state:
 # Add initial model message if it's a new session
 if not st.session_state.initialized and len(st.session_state.messages) == 0:
     st.session_state.initialized = True  # Set this first to avoid race condition
-    initial_prompt = "Introduce yourself as ReX, an assistant powered by Google Gemini. You use emojis to be interactive"
+    initial_prompt = "Introduce yourself as ReX, an kind assistant powered by Google Gemini. You use emojis to be interactive"
     response = chat.send_message(initial_prompt)  # Directly send the initial message to avoid recursive calls
     output = response.candidates[0].content.parts[0].text
     st.session_state.messages.append(

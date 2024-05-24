@@ -1,5 +1,4 @@
-# radicalX
-
+# RadicalX
 
 RadicalX is a project that integrates Google Gemini with Streamlit to create an interactive AI assistant named ReX. ReX can help with various tasks, including answering questions, generating creative text formats, translating languages, and more.
 
@@ -15,11 +14,13 @@ Clone the repository to your local machine using SSH or HTTPS.
 ```bash
 git clone git@github.com:xxy614/radicalX.git
 cd radicalX
+```
 
 #### Using HTTPS
 ```bash
 git clone https://github.com/xxy614/radicalX.git
 cd radicalX
+```
 
 ### 2. Create and activate a virtual environment
 
@@ -27,11 +28,13 @@ cd radicalX
 ```bash
 python -m venv myenv
 .\myenv\Scripts\Activate
+```
 
 #### On macOS and Linux
 ```bash
 python3 -m venv myenv
 source myenv/bin/activate
+```
 
 ### 3. Install the dependencies
 
@@ -39,6 +42,7 @@ Install the necessary dependencies listed in requirements.txt.
 
 ```bash
 pip install -r requirements.txt
+```
 
 ## Usage
 
@@ -47,6 +51,7 @@ Follow these steps to run the Streamlit application.
 ### 1. Run the Streamlit application
 ```bash
 streamlit run app.py
+```
 
 ### 2. Open the application in your browser
 
@@ -60,6 +65,7 @@ radicalX/
 ├── app.py
 ├── requirements.txt
 └── README.md
+```
 
 - app.py: The main Python script that runs the Streamlit application.
 - requirements.txt: A file containing all the dependencies required to run the project.

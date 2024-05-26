@@ -36,6 +36,14 @@ python3 -m venv myenv
 source myenv/bin/activate
 ```
 
+### 3. Install the dependencies:
+
+Use pip to install the necessary dependencies:
+
+```bash
+pip install streamlit google-cloud-aiplatform
+```
+
 
 ## Usage
 

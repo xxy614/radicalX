@@ -67,7 +67,6 @@ radicalX/
 ```
 
 - app.py: The main Python script that runs the Streamlit application.
-- requirements.txt: A file containing all the dependencies required to run the project.
 - README.md: The file you are currently reading.
 
 ## Contributing

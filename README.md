@@ -63,7 +63,6 @@ radicalX/
 ├── .git/
 ├── myenv/
 ├── app.py
-├── requirements.txt
 └── README.md
 ```
 

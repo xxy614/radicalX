@@ -36,13 +36,6 @@ python3 -m venv myenv
 source myenv/bin/activate
 ```
 
-### 3. Install the dependencies
-
-Install the necessary dependencies listed in requirements.txt.
-
-```bash
-pip install -r requirements.txt
-```
 
 ## Usage
 
